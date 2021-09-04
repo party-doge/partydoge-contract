@@ -13,14 +13,12 @@ module.exports = async function(deployer) {
       await deployer.deploy(PartyDoge, {
         gas: 4000000
       });
-    
       dataParse['PartyDoge'] = PartyDoge.address;
-      
     }
     else {
       dataParse['PartyDoge'] = configs.PartyDoge;
     }
-  
+
 
     const updatedData = JSON.stringify(dataParse);
 		await fs.promises.writeFile('contracts.json', updatedData);
