@@ -13,7 +13,7 @@ module.exports = async function(deployer) {
       await deployer.deploy(PartyDoge, {
         gas: 4000000
       });
-      let partyDogeInstance = await PartyDoge.deployed();
+    
       dataParse['PartyDoge'] = PartyDoge.address;
       
     }
