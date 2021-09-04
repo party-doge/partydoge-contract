@@ -418,7 +418,7 @@ contract PartyDoge is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
     
-    address payable public marketingAddress = payable(0x5eAd1292161977232B59Dcf2Af30c596CdbC54c7); // Marketing Address
+    address payable public marketingAddress = payable(0x6Ad4E4C3693349A3Aca5Ec22665788042B77B2e0); // Marketing Address
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
     mapping (address => uint256) private _rOwned;
     mapping (address => uint256) private _tOwned;
