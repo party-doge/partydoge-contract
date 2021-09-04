@@ -11,7 +11,7 @@ module.exports = async function(deployer) {
 
     if (!configs.PartyDoge) {
       await deployer.deploy(PartyDoge, {
-        gas: 40000000
+        gas: 4000000
       });
       let partyDogeInstance = await PartyDoge.deployed();
       dataParse['PartyDoge'] = PartyDoge.address;
