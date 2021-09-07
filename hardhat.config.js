@@ -29,7 +29,14 @@
          blockNumber: 11997864,
        }
      },
-
+     kovan: {
+      url: `https://eth-kovan.alchemyapi.io/v2/pJBLLNa2QC_Mfg1qoDDVp3rWsqAM9jNM`,
+      accounts: {
+        mnemonic: process.env.MNEMONIC
+      },
+      chainId: 42,
+       timeout: 20000000
+    },
      binance: {
        accounts: {
          mnemonic: process.env.MNEMONIC
