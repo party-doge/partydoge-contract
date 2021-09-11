@@ -434,8 +434,8 @@ contract PartyDoge is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "Party Doge";
-    string private _symbol = "PartyDoge";
+    string private _name = "Party Doge Test";
+    string private _symbol = "PartyDogeTest";
     uint8 private _decimals = 9;
 
     struct AddressFee {
@@ -529,7 +529,7 @@ contract PartyDoge is Context, IERC20, Ownable {
         // IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
         
         // uniswap Router Testnet v2 - Not existing I guess
-        IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);
+        IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
 
         uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
             .createPair(address(this), _uniswapV2Router.WETH());
