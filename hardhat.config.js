@@ -52,7 +52,8 @@
         },
         url: "https://data-seed-prebsc-1-s1.binance.org:8545",
         chainId: 97,
-        timeout: 20000000
+     
+      
      },
 
      matic: {
@@ -65,9 +66,7 @@
      },
    },
 
-   etherscan: {
-     apiKey: process.env.ETHERSCAN_API_KEY
-   },
+
 
    mocha: {
      timeout: 2000000
