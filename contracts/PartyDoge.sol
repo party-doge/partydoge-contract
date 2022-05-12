@@ -434,7 +434,7 @@ contract PartyDoge is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "Party Doge";
+    string private _name = "Party Doge T";
     string private _symbol = "PartyDoge";
     uint8 private _decimals = 9;
 
